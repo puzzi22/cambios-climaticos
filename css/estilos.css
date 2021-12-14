@@ -640,7 +640,7 @@ footer {
 
 /* Index.html */
 .image-container {
-   background-image: url(https://github.com/puzzi/cambios-climaticos/img/bg-hero-home.jpg);
+   background-image: url(/img/bg-hero-home.jpg);
    background-color: black;
    height: 47vh;
    min-height: 312px;
