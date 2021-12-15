@@ -339,14 +339,10 @@ main a:hover {
 input[type="submit"] {
    background-color: var(--contrast-color);
    color: var(--text-color-light);
-   -webkit-appearance: none;
-   border-radius: 0;
 }
 
 input[type="submit"]:hover {
    background-color: var(--background-black);
-   -webkit-appearance: none;
-   border-radius: 0;
 }
 
 /* Lists */
@@ -443,6 +439,8 @@ input {
    width: 100%;
    margin-bottom: 1.4rem;
    border: 1px solid black;
+   -webkit-appearance: none;
+   border-radius: 0;
 }
 
 input[placeholder] {
