@@ -339,10 +339,14 @@ main a:hover {
 input[type="submit"] {
    background-color: var(--contrast-color);
    color: var(--text-color-light);
+   -webkit-appearance: none;
+   border-radius: 0;
 }
 
 input[type="submit"]:hover {
    background-color: var(--background-black);
+   -webkit-appearance: none;
+   border-radius: 0;
 }
 
 /* Lists */
@@ -636,7 +640,7 @@ footer {
    transform: rotate(-180deg);
 }
 
-/* Tablet (iPad Pro Portrait Media Query */
+/* Tablet (iPad Pro Portrait) Media Query */
 @media only screen and (min-height: 1100px) {
    .footer-ipadpro {
       position: absolute;
