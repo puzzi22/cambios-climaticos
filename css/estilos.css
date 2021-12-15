@@ -426,6 +426,8 @@ label {
    text-transform: uppercase;
    padding: 1.4rem 1rem;
    border: none;
+   -webkit-appearance: none;
+   border-radius: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -439,8 +441,6 @@ input {
    width: 100%;
    margin-bottom: 1.4rem;
    border: 1px solid black;
-   -webkit-appearance: none;
-   border-radius: 0;
 }
 
 input[placeholder] {
