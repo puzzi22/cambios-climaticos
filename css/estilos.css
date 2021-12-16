@@ -117,7 +117,23 @@ figcaption {
    }
 }
 
-blockquote {
+.blockquote-fig {
+   text-align: left;
+   font-weight: bold;
+   padding: 0;
+   margin-bottom: 1.5rem;
+   line-height: 1.4;
+   font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+   .blockquote-fig {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+   }
+}
+
+.blockquote {
    background-color: white;
    margin-bottom: 3rem;
    font-style: italic;
@@ -126,8 +142,9 @@ blockquote {
 }
 
 @media only screen and (min-width: 768px) {
-   blockquote {
+   .blockquote {
       padding: 1rem 1rem 1rem 1rem;
+      margin-bottom: 2.5rem;
    }
 }
 
@@ -167,12 +184,6 @@ blockquote {
    .container-desktop {
       width: 60%;
       margin: 0 auto;
-   }
-
-   .container-flex {
-      display: flex;
-      gap: 10%;
-      align-content: center;
    }
 }
 
@@ -319,7 +330,7 @@ main a:hover {
 }
 
 .more {
-   border-bottom: 1px dotted;
+   border-bottom: 0.1rem dotted;
    display: inline-block;
    margin-bottom: 2rem;
    align-self: flex-start;
@@ -387,13 +398,13 @@ dd {
    .legal-nav li:before {
       display: inline-block;
       content: " ";
-      width: 4px;
-      height: 4px;
-      border: 2px solid var(--text-color-light);
-      border-radius: 4px;
+      width: 0.4rem;
+      height: 0.4rem;
+      border: 0.2rem solid var(--text-color-light);
+      border-radius: 0.4rem;
       position: relative;
-      top: -3px;
-      right: 15px;
+      top: -0.3rem;
+      right: 1.5rem;
    }
 
    /* Removing circle from first item*/
@@ -432,7 +443,7 @@ label {
 
 @media only screen and (min-width: 768px) {
    .form-button {
-      width: 130px;
+      width: 13rem;
       font-size: 1.3rem;
    }
 }
@@ -440,7 +451,7 @@ label {
 input {
    width: 100%;
    margin-bottom: 1.4rem;
-   border: 1px solid black;
+   border: 0.1rem solid black;
 }
 
 input[placeholder] {
@@ -652,7 +663,7 @@ footer {
    background-image: url(../img/bg-hero-home.jpg);
    background-color: black;
    height: 47vh;
-   min-height: 312px;
+   min-height: 31.2rem;
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
@@ -826,7 +837,7 @@ footer {
 
    .symptoms-grid {
       display: grid;
-      grid-auto-columns: minmax(10px, auto);
+      grid-auto-columns: minmax(1rem, auto);
       grid-auto-rows: auto;
       gap: 3rem;
    }
@@ -869,6 +880,14 @@ footer {
 }
 
 /* Cop26.html */
+
+@media only screen and (min-width: 768px) {
+   .container-flex {
+      display: flex;
+      gap: 10%;
+      align-content: center;
+   }
+}
 
 .datos {
    margin-bottom: 2rem;
