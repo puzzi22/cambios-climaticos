@@ -891,13 +891,14 @@ footer {
 }
 
 .datos {
-   margin-bottom: 2rem;
+   margin: 2rem 0;
 }
 
 @media only screen and (min-width: 768px) {
    .datos {
       max-width: 40%;
       padding: 0 1rem 0 2rem;
+      margin-top: 0;
    }
 }
 
@@ -919,7 +920,7 @@ footer {
 
 .resultados {
    font-size: 1.6rem;
-   margin-bottom: 7.8rem;
+   margin: 4rem 0 7.8rem 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -929,5 +930,6 @@ footer {
       font-size: 1.3rem;
       max-width: 50%;
       padding: 0 1rem 0 2rem;
+      margin-top: 0;
    }
 }
